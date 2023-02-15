@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: profile-ms
+  profiles:
+    active: ${ENV:dev}
+
+server:
+  port: ${PORT:8080}

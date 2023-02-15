@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: profile-ms
+
+aws:
+  paramstore:
+    prefix: /fridom/config
+    region: ${AWS_REGION:eu-west-1}
